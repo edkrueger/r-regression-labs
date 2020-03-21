@@ -21,29 +21,9 @@ cv.glm(mtcars, glm_univariate, , K=10)$delta[1]
 cv.glm(mtcars, glm_multivariate, , K=10)$delta[1]
 cv.glm(mtcars, glm_polynomial, , K=10)$delta[1]
 
-# Warning message in cv.glm(mtcars, glm_univariate, , K = 10):
-# “'K' has been set to 11.000000”
-# 18.3962553992011
-# Warning message in cv.glm(mtcars, glm_multivariate, , K = 10):
-# “'K' has been set to 11.000000”
-# 5.33693253842602
-# Warning message in cv.glm(mtcars, glm_polynomial, , K = 10):
-# “'K' has been set to 11.000000”
-# 10.2080617162244
-
 # try again with a different seed
 set.seed(21)
 
 cv.glm(mtcars, glm_univariate, , K=10)$delta[1]
 cv.glm(mtcars, glm_multivariate, , K=10)$delta[1]
 cv.glm(mtcars, glm_polynomial, , K=10)$delta[1]
-
-# Warning message in cv.glm(mtcars, glm_univariate, , K = 10):
-# “'K' has been set to 11.000000”
-# 16.640103481917
-# Warning message in cv.glm(mtcars, glm_multivariate, , K = 10):
-# “'K' has been set to 11.000000”
-# 5.24168646382012
-# Warning message in cv.glm(mtcars, glm_polynomial, , K = 10):
-# “'K' has been set to 11.000000”
-# 10.1855185570476

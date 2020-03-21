@@ -52,19 +52,10 @@ calc_MSE(lm_1, train_data)
 calc_MSE(lm_2, train_data)
 calc_MSE(lm_3, train_data)
 
-# 16.4344038294548
-# 10.059763313286
-# 9.86479846494066
-
-
 # calculate the test MSE for the three models
 calc_MSE(lm_1, test_data)
 calc_MSE(lm_2, test_data)
 calc_MSE(lm_3, test_data)
-
-# 6.80772015073653
-# 4.62519616917291
-# 4.94360556087465
 
 set.seed(2)
 result = test_train_split(mtcars)
@@ -84,15 +75,7 @@ calc_MSE(lm_1, train_data)
 calc_MSE(lm_2, train_data)
 calc_MSE(lm_3, train_data)
 
-# 13.576830598356
-# 10.2806988133705
-# 10.2363157015701
-
 # calculate the test MSE for the three models
 calc_MSE(lm_1, test_data)
 calc_MSE(lm_2, test_data)
 calc_MSE(lm_3, test_data)
-
-# 22.2475929250036
-# 5.12277965906338
-# 12.8439472709547

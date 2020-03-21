@@ -1,7 +1,7 @@
 
 # Fuel Efficiency Analysis
 # Best Subset Selection (Instructor)
-# In [1]:
+
 # # look at the docs for the Auto dataset
 # # https://www.rdocumentation.org/packages/ISLR/versions/1.2/topics/Auto
 
@@ -103,5 +103,6 @@ plot(reg_fit_full, scale="bic")
 
 
 # see the coefficients for the best model with 4 variable
+
 coef(reg_fit_full, 4)
 

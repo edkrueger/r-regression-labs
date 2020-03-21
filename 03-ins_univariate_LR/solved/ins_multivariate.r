@@ -3,6 +3,7 @@
 # Multivariate Linear Regression (Instructor)
 # More than one regressor
 
+
 # fit the univariate model
 lm_univariate = lm(mpg ~ hp, data=mtcars)
 
