@@ -74,4 +74,6 @@ text(tree_pruned)
 calc_MSE(tree_unpruned, test)
 
 # find the test mse for the pruned tree
+
 calc_MSE(tree_pruned, test)
+

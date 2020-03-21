@@ -28,4 +28,6 @@ for (i in 1:10) {
     cv_errors[i] = cv.glm(mtcars, glm_fit, , K=10)$delta[1]
 }
 
+
 cv_errors
+

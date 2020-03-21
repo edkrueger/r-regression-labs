@@ -52,6 +52,7 @@ tf - to
 reg_summary = summary(reg_fit_full)
 reg_summary
 
+
 reg_summary$rsq
 
 # plot number of variables for the best model against the associated RSS, Adjusted R-Squared, Cp and BIC. 
@@ -102,4 +103,6 @@ plot(reg_fit_full, scale="bic")
 
 
 # see the coefficients for the best model with 4 variable
+
 coef(reg_fit_full, 4)
+
