@@ -53,12 +53,6 @@ calc_MSE(lm_polynomial, train_data)
 calc_MSE(lm_multivariate, test_data)
 calc_MSE(lm_polynomial, test_data)
 
-# 6.65428383928692
-# 9.86479846494066
-# 5.29791822880987
-# 4.94360556087465
-
-
 # try again with a different seed 
 set.seed(2)
 
@@ -79,12 +73,6 @@ calc_MSE(lm_polynomial, train_data)
 calc_MSE(lm_multivariate, test_data)
 calc_MSE(lm_polynomial, test_data)
 
-# 5.20348572022598
-# 10.2363157015701
-# 11.5948065625613
-# 12.8439472709547
-
-
 # try again with yet another seed 
 set.seed(3)
 
@@ -104,8 +92,3 @@ calc_MSE(lm_polynomial, train_data)
 # calculate the test MSE for the three models
 calc_MSE(lm_multivariate, test_data)
 calc_MSE(lm_polynomial, test_data)
-
-# 7.01819942156004
-# 9.87613449326122
-# 3.90526542695234
-# 5.38027215440903
