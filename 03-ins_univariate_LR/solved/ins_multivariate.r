@@ -42,6 +42,7 @@ anova(lm_interaction, lm_univariate)
 
 # show the diagnostic plots
 par(mfrow=c(2, 2))
+par(mar=c(1,1,1,1))
 plot(lm_interaction)
 
 # fit the model regressing horsepower and it square on mpg
@@ -63,5 +64,6 @@ anova(lm_cubic, lm_quadratic)
 
 # show the diagnostic plots for the quadratic model
 par(mfrow=c(2, 2))
+par(mar=c(1,1,1,1))
 plot(lm_quadratic)
 
