@@ -15,7 +15,6 @@ glm_1 = glm(mpg ~ hp, data=mtcars)
 summary(lm_1)
 summary(glm_1)
 
-
 # cross-validate the linear through 10th degree model of horsepower on mpg
 
 # set a seed
@@ -30,3 +29,4 @@ for (i in 1:10) {
 }
 
 cv_errors
+
