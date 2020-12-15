@@ -1,2 +1,2 @@
-# linear-regression-labs-r
-Copyright © 2019 Edward Krueger
+# r-regression-labs
+Copyright © 2020 Edward Krueger
